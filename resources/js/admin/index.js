@@ -1,0 +1,10 @@
+import './admin-user';
+import './profile-edit-profile';
+import './profile-edit-password';
+import './artist';
+import './song-collection';
+import './streamer-community';
+import './conversation';
+import './conversation-interview';
+import './youtube-collection';
+import './word-static-page';

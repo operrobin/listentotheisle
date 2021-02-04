@@ -1,0 +1,40 @@
+@font-face {
+    font-family: NeueBit;
+    src: url(../fonts/vendor/frontend/NeueBit-Bold.otf);
+}
+
+@font-face {
+    font-family: Cow90;
+    font-style: normal;
+    src: url(../fonts/cow90.ttf);
+}
+
+@font-face {
+    font-family: Soulmaze;
+    font-style: normal;
+    src: url(../fonts/soulmaze_regular.otf);
+}
+
+@font-face {
+    font-family: Soulmaze;
+    font-style: italic;
+    src: url(../fonts/soulmaze_italic.otf)
+}
+
+@font-face {
+    font-family: SoulmazeOutline;
+    font-style: normal;
+    src: url(../fonts/soulmaze_regular_outline.otf)
+}
+
+@font-face {
+    font-family: SoulmazeOutline;
+    font-style: italic;
+    src: url(../fonts/soulmaze_italic_outline.otf);
+}
+
+@font-face {
+    font-family: SoulmazeBrush ;
+    font-style: normal;
+    src: url(../fonts/soulmaze_brush.otf)
+}
