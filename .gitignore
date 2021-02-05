@@ -15,3 +15,5 @@ public/media
 docker
 docker-compose.yml
 Dockerfile
+
+/.vscode
