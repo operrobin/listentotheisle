@@ -1,6 +1,6 @@
 @extends('brackets/admin-ui::admin.layout.default')
 
-@section('title', trans('admin.conversation.actions.index'))
+@section('title', 'Configuration')
 
 @section('body')
     <div class="container">
