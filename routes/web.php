@@ -154,6 +154,19 @@ Route::middleware(['auth:' . config('admin-auth.defaults.guard'), 'admin'])->gro
     });
 });
 
+Route::middleware(['auth:'. config('admin-auth.defaults.guard'), 'admin'])->group(static function(){
+    Route::prefix('admin')->namespace('Admin')->name('admin/')->group(static function(){
+        Route::prefix('configuration')->name('configuration')->group(static function(){
+            Route::get('/',                                            'ConfigurationController@index')->name('index');
+            Route::post('/setup',                                            'ConfigurationController@toggleEnvironmentMode')->name('setup');
+        });
+    });
+});
+
+Route::get('/maintenance', function(){
+    return view('utils/maintenance');
+});
+
 Route::get('/{vue}', function () {
     return view('frontend.pages.index');
 })->where('vue', '.*');
