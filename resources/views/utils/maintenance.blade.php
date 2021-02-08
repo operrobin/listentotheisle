@@ -31,6 +31,12 @@
             max-height: 100vh;
             max-width: 65vw;
             font-style: italic;
+
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
         }
 
         #logo{
@@ -53,6 +59,11 @@
                 font-size: 2.62vh;
                 max-height: 100vh;
                 max-width: 100vw;
+
+                position: static;
+                top: 0%;
+                -ms-transform: translateY(-0%);
+                transform: translateY(-0%);
             }
 
             #logo{
