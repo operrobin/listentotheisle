@@ -17,6 +17,9 @@ class CheckEnvironmentMode
      */
     public function handle($request, Closure $next)
     {
+        if(strpos(Request::url(), 'admin'))
+            return $next($request);
+
         $maintenance = DB::table('environment_mode')
                         ->where('state_name', 'MAINTENANCE')
                         ->where('status', 1)
