@@ -26,7 +26,8 @@
         }
 
         #caption{
-            font-size: 3.445rem;
+            font-size: 3.2vw;
+            line-height: 3.4vw;
             color: #FFFFFF;
             max-height: 100vh;
             max-width: 65vw;
@@ -51,13 +52,17 @@
                 background: none;
                 
                 background-color: #F52A00;
-                max-height: calc(100vh - 150px);
+
+                height: calc(100vh - 300px);
+                max-height: calc(100vh - 300px);
                 max-width: calc(100vw - 0px);
             }
 
             #caption{
-                font-size: 2.62vh;
-                max-height: 100vh;
+                font-size: 6vw;
+                line-height: 6vw;
+
+                height: calc(100vh - 300px);
                 max-width: 100vw;
 
                 position: static;
