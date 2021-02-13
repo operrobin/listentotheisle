@@ -106,15 +106,22 @@
     .artist-item .artist_container .artist_name .artist_name_title {
         font-family: Soulmaze, sans-serif;
         font-size: calc(0.5em + 5vmin);
-        color: orange;
+        color: red;
         /*-webkit-text-stroke-color: black;*/
         /*-webkit-text-stroke-width: .1pt;*/
         line-height: 1;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+        font-style: italic !important;
     }
 
+    @supports (-webkit-text-stroke: 1px orange){
+        .artist-item .artist_container .artist_name .artist_name_title{
+            -webkit-text-stroke: 1px orange;
+            -webkit-text-fill-color: red;
+        }
+    }
 
     .artist-item .artist_container .artist_name {
         border-top: 1px solid white;
@@ -136,7 +143,7 @@
         }
 
         .artist-item .artist_container .artist_name .artist_name_title {
-            font-size: 14pt;
+            font-size: calc(0.5em + 3vmin);
         }
     }
 
