@@ -194,7 +194,7 @@ export default {
     }
 
     .render .artist_info .artist_name {
-        font-family: Soulmaze, sans-serif !important;
+        font-family: Soulmaze, sans-serif;
         color: #E91C00;
         font-size: 32pt;
         line-height: 1;
