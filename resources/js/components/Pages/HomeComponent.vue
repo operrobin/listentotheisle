@@ -286,7 +286,7 @@ export default {
         font-weight: bold;
         font-family: Soulmaze, sans-serif;
         font-size: 24pt;
-        color: orange;
+        color: #E91C00;
         line-height: 32pt;
         margin-bottom: 10pt;
         margin-top: 1em;
