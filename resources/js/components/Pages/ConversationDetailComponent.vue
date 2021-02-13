@@ -194,8 +194,8 @@ export default {
     }
 
     .render .artist_info .artist_name {
-        font-family: Soulmaze, sans-serif;
-        color: orange;
+        font-family: Soulmaze, sans-serif !important;
+        color: #E91C00;
         font-size: 32pt;
         line-height: 1;
     }
@@ -299,8 +299,7 @@ export default {
         }
 
         .render .artist_info .artist_name {
-            font-family: Soulmaze, sans-serif;
-            color: orange;
+            font-family: Soulmaze, italic;
             font-size: 72pt;
             line-height: 1;
         }
