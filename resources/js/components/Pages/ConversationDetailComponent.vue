@@ -194,14 +194,15 @@ export default {
     }
 
     .render .artist_info .artist_name {
-        font-family: Soulmaze, sans-serif;
+        font-family: Soulmaze, italic;
+        font-style: italic;
         color: #E91C00;
         font-size: 32pt;
         line-height: 1;
     }
 
     .render .artist_info .artist_detail {
-        font-family: 'Nunito', sans-serif;
+
         color: red;
         font-weight: 400;
         text-transform: uppercase;
@@ -211,7 +212,6 @@ export default {
 
     .render .artist_info .rank {
         font-weight: bold;
-        font-family: Soulmaze, sans-serif;
         font-size: 13pt;
         color: red;
         text-transform: uppercase;
@@ -233,6 +233,7 @@ export default {
         flex-direction: row;
         justify-content: space-between;
         z-index: 2;
+        line-height: 1.4rem;
     }
 
     .render .interview_info * {
@@ -299,7 +300,6 @@ export default {
         }
 
         .render .artist_info .artist_name {
-            font-family: Soulmaze, italic;
             font-size: 72pt;
             line-height: 1;
         }

@@ -290,11 +290,11 @@ export default {
         line-height: 32pt;
         margin-bottom: 10pt;
         margin-top: 1em;
+        font-style: italic;
     }
 
     .carousel-container-all .artist_card .description {
         font-weight: bold;
-        font-family: Soulmaze, sans-serif;
         font-size: 12pt;
         color: red;
         /* -webkit-text-stroke-color: black;
@@ -304,11 +304,11 @@ export default {
 
     .carousel-container-all .artist_card .rank {
         font-weight: bold;
-        font-family: Soulmaze, sans-serif;
         font-size: 13pt;
         color: red;
         text-transform: uppercase;
-        line-height: 24pt;
+        line-height: 0;
+        margin-top: 24pt;
     }
 
     .section-second {
@@ -430,7 +430,6 @@ export default {
         }
 
         .carousel-container-all .artist_card .title {
-            font-family: Soulmaze, sans-serif;
             font-size: 72pt;
             line-height: 42pt;
             margin-top: .1em;
@@ -453,6 +452,8 @@ export default {
             color: red;
             margin-top: .6em;
             margin-bottom: .8em;
+            line-height: 24pt;
+            margin-top: 0;
             /* line-height: 32pt; */
         }
 
