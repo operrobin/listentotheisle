@@ -116,12 +116,7 @@
         font-style: italic !important;
     }
 
-    @supports (-webkit-text-stroke: 1px orange){
-        .artist-item .artist_container .artist_name .artist_name_title{
-            -webkit-text-stroke: 1px black;
-            -webkit-text-fill-color: orange;
-        }
-    }
+
 
     .artist-item .artist_container .artist_name {
         border-top: 1px solid white;

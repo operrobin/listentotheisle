@@ -132,12 +132,6 @@
         border-top: 1px solid white;
     }
 
-    @supports (-webkit-text-stroke: 1px orange){
-        .item .artist_container .artist_name .artist_name_title{
-            -webkit-text-stroke: 1px black;
-            -webkit-text-fill-color: orange;
-        }
-    }
 
     @media only screen and (min-width: 768px) {
         .item .artist_container .artist_song .artist_song_title {
